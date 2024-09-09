@@ -13,7 +13,9 @@ For a call center, this might include processes like incoming calls, customer se
 This diagram breaks down the Level 0 processes into more detailed subprocesses.
 It shows the flow of data between these subprocesses and the data stores.
 For a call center, Level 1 might include subprocesses like customer authentication, issue resolution, and call logging.
-Creating an Entity-Relationship Diagram (ERD)
+<img width="506" alt="ERD" src="https://github.com/Data-samrex/Call-center/blob/main/DFD%20level%200.PNG">
+
+### Creating an Entity-Relationship Diagram (ERD)
 Identify entities: These are the main objects or concepts that will be stored in the database. For a call center, entities might include:
 Customer
 Call
@@ -23,6 +25,12 @@ Resolution
 Define attributes: These are the properties or characteristics of each entity. For example, the Customer entity might have attributes like customer ID, name, contact information, and purchase history.
 Establish relationships: Determine how the entities relate to each other. For instance, a Customer entity might have a one-to-many relationship with the Call entity, meaning one customer can have many calls.
 Create the ERD: Visually represent the entities and their relationships using standard ERD notation.
+
+### ENTITY-RELATIONSHIP DIAGRAM (ERD)
+An entity relationship diagram (ERD) serves as a comprehensive and structured depiction of data storage, showcasing the relationships and constraints that logically connect them. Its primary purpose is to organise data effectively, revealing the intricate relationships between entities within the schema. 
+
+
+<img width="506" alt="ERD" src="https://github.com/user-attachments/assets/2b2d16d1-6e04-4b20-9b57-ac15c412abfc">
 
 ### Database Design and Implementation
 Choose a database management system (DBMS): Select a suitable DBMS based on the scale of the database, performance requirements, and organizational preferences.
@@ -34,14 +42,6 @@ Test the database: Thoroughly test the database to ensure it functions correctly
 Optimize performance: Identify and address any performance bottlenecks to ensure the database can handle the expected workload.
 Implement security measures: Protect the database from unauthorized access and data breaches.
 By following these steps and tailoring the database design to the specific needs of the call center, you can create a robust and efficient solution for managing customer data and interactions.	
-
-
-### ENTITY-RELATIONSHIP DIAGRAM (ERD)
-An entity relationship diagram (ERD) serves as a comprehensive and structured depiction of data storage, showcasing the relationships and constraints that logically connect them. Its primary purpose is to organise data effectively, revealing the intricate relationships between entities within the schema. 
-
-
-<img width="506" alt="ERD" src="https://github.com/user-attachments/assets/2b2d16d1-6e04-4b20-9b57-ac15c412abfc">
-
 
 ### CREATING DATABASE 
 ```sql
