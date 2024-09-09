@@ -8,14 +8,15 @@ Before designing the database, it's crucial to have a clear understanding of the
 This high-level diagram provides an overview of the entire system.
 It typically shows the major processes, data stores, and external entities involved.
 For a call center, this might include processes like incoming calls, customer service, and reporting.
-<img width="506" alt="ERD" src="https://github.com/Data-samrex/Call-center/blob/main/DFD%20level%201.PNG">
+<img width="506" alt="ERD" src="https://github.com/Data-samrex/Call-center/blob/main/DFD%20level%200.PNG">
 
 #### Level 1 DFD:
 
 This diagram breaks down the Level 0 processes into more detailed subprocesses.
 It shows the flow of data between these subprocesses and the data stores.
 For a call center, Level 1 might include subprocesses like customer authentication, issue resolution, and call logging.
-<img width="506" alt="ERD" src="https://github.com/Data-samrex/Call-center/blob/main/DFD%20level%200.PNG">
+<img width="506" alt="ERD" src="https://github.com/Data-samrex/Call-center/blob/main/DFD%20level%201.PNG">
+
 
 ### Creating an Entity-Relationship Diagram (ERD)
 Identify entities: These are the main objects or concepts that will be stored in the database. For a call center, entities might include:
